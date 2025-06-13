@@ -1,0 +1,8 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\ogtop\source\repos\WXTest\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  TimeSheetApp.cpp
+  Generating code
+  0 of 3085 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  WXTest.vcxproj -> C:\Users\ogtop\source\repos\WXTest\Release\Timesheet Generator.exe
