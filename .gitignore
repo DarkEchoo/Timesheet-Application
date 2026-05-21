@@ -1,0 +1,12 @@
+x64/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.ipdb
+*.iobj
+*.log
+.vs/

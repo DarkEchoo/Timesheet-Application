@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "libxlsxwriter",
+    "zlib",
+    "minizip",
+    "fmt",
+    "wxwidgets",
+    "sqlite3"
+  ]
+}

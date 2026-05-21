@@ -1,0 +1,6 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/lib/minizip.lib
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/share/unofficial-minizip/unofficial-minizipConfig.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/share/unofficial-minizip/unofficial-minizipConfigVersion.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/share/unofficial-minizip/unofficial-minizipTargets.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/share/unofficial-minizip/unofficial-minizipTargets-debug.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/debug/lib/pkgconfig/minizip.pc

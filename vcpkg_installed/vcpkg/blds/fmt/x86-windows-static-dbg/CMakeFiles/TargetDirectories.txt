@@ -1,0 +1,8 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/fmt.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/package.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/package_source.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/edit_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/list_install_components.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/install.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/fmt/x86-windows-static-dbg/CMakeFiles/install/local.dir

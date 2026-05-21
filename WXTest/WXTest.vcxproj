@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fd23c480-53d7-41ff-9318-d3ffa6e76d28}</ProjectGuid>
+    <RootNamespace>WXTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Timesheet Generator</TargetName>
+    <LibraryPath>C:\wxWidgets-3.2.8\lib\vc_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\wxWidgets-3.2.8\include;C:\wxWidgets-3.2.8\lib\vc_lib\mswu;C:\wxWidgets-3.2.8;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>Timesheet Generator</TargetName>
+    <LibraryPath>C:\wxWidgets-3.2.8\lib\vc_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\wxWidgets-3.2.8\include;C:\wxWidgets-3.2.8\lib\vc_lib\mswu;C:\wxWidgets-3.2.8;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>Timesheet Generator</TargetName>
+    <LibraryPath>C:\wxWidgets-3.2.8\lib\vc_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\wxWidgets-3.2.8\include;C:\wxWidgets-3.2.8\lib\vc_lib\mswu;C:\wxWidgets-3.2.8;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>Timesheet Generator</TargetName>
+    <LibraryPath>C:\wxWidgets-3.2.8\lib\vc_lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\wxWidgets-3.2.8\include;C:\wxWidgets-3.2.8\lib\vc_lib\mswu;C:\wxWidgets-3.2.8;$(IncludePath)</IncludePath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\wxWidgets-3.2.8\lib\vc_lib\mswu;C:\wxWidgets-3.2.8\include;C:\Users\ogtop\source\repos\WXTest\vcpkg_installed\x86-windows-static\include;$(WXWIN)\include\msvc;C:\Users\ogtop\source\repos\WXTest\vcpkg_installed\x86-windows-static\;$(WXWIN)\include;E:\C\fmt-12.1.0\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\wxWidgets-3.2.8\lib\vc_lib\mswu;E:\wxWidgets-3.2.8\include;E:\wxWidgets-3.2.8\lib\vc_lib;C:\wxWidgets-3.2.8\lib\vc_lib;$(WXWIN)\lib\vc_lib;C:\Users\ogtop\source\repos\WXTest\vcpkg_installed\x86-windows-static\lib;E:\C\fmt-12.1.0\build\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw32u_core.lib;wxbase32u.lib;wxzlib.lib;wxpng.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;fmt.lib;xlsxwriter.lib;zlib.lib;minizip.lib;E:\C\fmt-12.1.0\build\Release\fmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\wxWidgets-3.2.8\lib\vc_lib;E:\wxWidgets-3.2.8\lib\vc_lib\mswu;E:\wxWidgets-3.2.8\include;C:\Users\ogtop\source\repos\WXTest\vcpkg_installed\vcpkg\pkgs\libxlsxwriter_x86-windows-static\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\wxWidgets-3.2.8\lib\vc_lib;C:\wxWidgets-3.2.8\lib\vc_lib;$(WXWIN)\lib\vc_lib;$(WXWIN)\lib\vc_lib;C:\Users\ogtop\source\repos\WXTest\vcpkg_installed\x86-windows-static\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw32u_core.lib;wxbase32u.lib;wxzlib.lib;wxpng.lib;wxexpat.lib;comctl32.lib;rpcrt4.lib;fmt.lib;xlsxwriter.lib;zlib.lib;minizip.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\C\libxlsxwriter-main\include;E:\wxWidgets-3.2.8\include;E:\C\fmt-12.1.0\include;E:\wxWidgets-3.2.8\lib\vc_x64_lib\mswud;E:\C\zlib-1.3.2</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\C\fmt-12.1.0\build-x64-debug\Debug;E:\C\libxlsxwriter-main\build-x64-debug\Debug;E:\C\zlib-1.3.2\build-x64-debug\Debug;E:\wxWidgets-3.2.8\lib\vc_x64_lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxzlibd.lib;wxpngd.lib;wxexpatd.lib;comctl32.lib;rpcrt4.lib;fmtd.lib;xlsxwriter.lib;zsd.lib;wxbase32ud.lib;wxmsw32ud_core.lib;wxmsw32ud_adv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\C\libxlsxwriter-main\include;E:\wxWidgets-3.2.8\include;E:\C\fmt-12.1.0\include;E:\wxWidgets-3.2.8\lib\vc_x64_lib\mswu;E:\C\zlib-1.3.2;E:\C\zlib-1.3.2\build-x64-mt</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\C\fmt-12.1.0\build-x64-mt\Release;C:\C\libxlsxwriter-main\build-x64-mt\Release;C:\C\zlib-1.3.2\build-x64-mt\Release;E:\wxWidgets-3.2.8\lib\vc_x64_lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw32u_core.lib;wxbase32u.lib;wxpng.lib;wxzlib.lib;fmt.lib;xlsxwriter.lib;zs.lib;winspool.lib;comctl32.lib;rpcrt4.lib;winmm.lib;ws2_32.lib;uxtheme.lib;version.lib;shlwapi.lib;ole32.lib;oleaut32.lib;uuid.lib;advapi32.lib;shell32.lib;user32.lib;gdi32.lib;comdlg32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CSVExporter.cpp">
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Default</BasicRuntimeChecks>
+    </ClCompile>
+    <ClCompile Include="ExcelExporter.cpp">
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="TimeSheetApp.cpp" />
+    <ClCompile Include="TimeSheet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TimeSheetLogic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Documents\appicon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

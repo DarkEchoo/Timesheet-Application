@@ -1,0 +1,6 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/sqlite3.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/edit_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/list_install_components.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/install.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/sqlite3/x86-windows-static-rel/CMakeFiles/install/local.dir

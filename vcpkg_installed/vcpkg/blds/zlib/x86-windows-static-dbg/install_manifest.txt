@@ -1,0 +1,1 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows-static/debug/lib/zlibd.lib

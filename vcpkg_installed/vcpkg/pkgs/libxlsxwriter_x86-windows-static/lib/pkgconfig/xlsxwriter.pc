@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: libxlsxwriter
+Description: A C library for creating Excel XLSX files
+Version: 1.2.1
+
+Libs: "-L${libdir}" -lxlsxwriter
+Requires: zlib minizip
+Cflags: "-I${includedir}"

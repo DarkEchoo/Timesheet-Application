@@ -1,0 +1,12 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/lib/minizip.lib
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/share/unofficial-minizip/unofficial-minizipConfig.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/share/unofficial-minizip/unofficial-minizipConfigVersion.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/share/unofficial-minizip/unofficial-minizipTargets.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/share/unofficial-minizip/unofficial-minizipTargets-release.cmake
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/crypt.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/ioapi.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/unzip.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/zip.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/mztools.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/include/minizip/iowin32.h
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/pkgs/minizip_x86-windows-static/lib/pkgconfig/minizip.pc

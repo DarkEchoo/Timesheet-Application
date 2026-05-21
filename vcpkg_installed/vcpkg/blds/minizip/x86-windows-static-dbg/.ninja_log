@@ -1,0 +1,8 @@
+# ninja log v6
+5	46	7706011696729816	CMakeFiles/minizip.dir/ioapi.c.obj	a6a56f8c99b3ec54
+12	51	7706011696799831	CMakeFiles/minizip.dir/mztools.c.obj	3c2f69a484ee0ad2
+10	51	7706011696779832	CMakeFiles/minizip.dir/zip.c.obj	8dccb27689d7f9a3
+7	52	7706011696749829	CMakeFiles/minizip.dir/unzip.c.obj	b0879f65b1ca501e
+14	157	7706011696819823	CMakeFiles/minizip.dir/iowin32.c.obj	3be78a104a318e38
+157	197	7706011698249915	minizip.lib	6f09b4fe8e05a452
+197	253	7706011698649824	CMakeFiles/install.util	9b552252b63c5abb

@@ -1,0 +1,6 @@
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/minizip.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/edit_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/list_install_components.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/install.dir
+C:/Users/ogtop/source/repos/WXTest/vcpkg_installed/vcpkg/blds/minizip/x86-windows-static-dbg/CMakeFiles/install/local.dir
